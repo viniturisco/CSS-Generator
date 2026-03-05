@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!--Explica a versão do código HTML fornecido:-->
+
+<html lang="en"> <!--Define o idioma do documento HTML como inglês -->
+
+<head>
+    <meta charset="UTF-8"> <!--Define o conjunto de caracteres do documento HTML como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Define as configurações de visualização para dispositivos móveis, garantindo que a página seja responsiva -->
+    <link rel="stylesheet" href="styles.css">
+    <!--Link para o arquivo CSS externo que contém os estilos para a página -->
+
+    <!--Links para fontes do Google Fonts, permitindo o uso de fontes personalizadas na página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>CSS Generator using AI</title> <!-- Título do site, aparece na aba do navegador-->
+</head>
+
+<body>
+    <h1>
+        CSS Generator <span>using AI ⚡</span>
+        <!--span seleciona um pedaço de texto para aplicar estilos específicos -->
+    </h1>
+    <p>
+        Describe your design. Get your code. Copy, paste, and ship.
+        <br>
+        Elevate your web projects with the world’s most intuitive CSS generator.
+    </p>
+    <div class="title-box">
+        <h3>
+            Think it. CSS it.
+        </h3>
+        <p>
+            Prompt: "A sleek, minimalist login form with clean typography."
+        </p>
+    </div>
+    <textarea class="textbox" rows="4" cols="50" placeholder="Enter your design description here...">
+</textarea>
+
+    <button class="generate-button">
+        Generate CSS ⚡
+    </button>
+
+    <div>
+        <div>
+            <h2 class="label">Code:</h2>
+            <p class="code"></p>
+        </div>
+
+        <div>
+            <h2 class="label">Preview:</h2>
+            <iframe class="codeAnswer"></iframe>
+        </div>
+    </div>
+
+
+</body>
+
+<!-- Load the script as a module so that imports/exports work -->
+<script type="module" src="scripts.js"></script>
+
+</html>
