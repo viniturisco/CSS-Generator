@@ -45,7 +45,9 @@ fastify.post('/generate-css', async (request, reply) => {
     }
 });
 
-fastify.listen({ port: 3000 }, (err, address) => {
+const port = process.env.PORT || 3000;
+
+fastify.listen({ port: port, host: '0.0.0.0' }, (err, address) => {
     if (err) {
         fastify.log.error(err);
         process.exit(1);
