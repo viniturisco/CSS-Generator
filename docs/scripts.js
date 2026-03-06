@@ -7,7 +7,7 @@ async function generateCSS() {
         let codeElement = document.querySelector(".code");
         let codeAnswer = document.querySelector(".codeAnswer");
 
-        let answer = await fetch('http://localhost:3000/generate-css', {
+        let answer = await fetch('https://css-generator-server-viniturisco.onrender.com/generate-css', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
