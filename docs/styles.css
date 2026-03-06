@@ -86,6 +86,14 @@ textarea {
     margin-top: 20px;
 }
 
+small {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(247, 81, 81);
+    font-family: 'Open Sans', sans-serif;
+}
+
 .code {
     display: block;
     width: 100%;
