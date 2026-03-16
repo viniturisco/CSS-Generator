@@ -9,7 +9,6 @@ CSS Generator is a project built to simplify CSS creation through an intuitive i
 ## Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Build Tools**: [Add your tools if applicable]
 - **Version Control**: Git
 
 ## Key Concepts & Learning Outcomes
